@@ -59,7 +59,7 @@ dots.forEach((dot, index) => {
 // Auto-slide cada 5 segundos
 let slideInterval = setInterval(() => {
     showSlide(currentSlide + 1);
-}, 5000);
+}, 3000);
 
 // Pausar auto-slide al hacer hover en el carrusel
 const carouselContainer = document.querySelector('.carousel-container');
@@ -188,4 +188,5 @@ window.addEventListener('load', () => {
 
 // ===== RESPONSIVE ADICIONAL =====
 // Actualizar navegación activa en resize
+
 window.addEventListener('resize', updateActiveNavLink);
