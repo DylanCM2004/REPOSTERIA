@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolcevia - Repostería Artesanal</title>
+    <meta name="description" content="Pastelería artesanal, café de especialidad y postres finos en Dolcevia. Donde los momentos se endulzan con arte y frescura.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="#">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/57300XXXXXXX?text=Hola%20Dolcevia,%20quiero%20más%20información%20sobre%20sus%20productos" 
+        class="whatsapp-float" 
+        target="_blank" 
+        aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">Dolcevia</a>
+            
+            <button class="hamburger" aria-label="Menú" aria-expanded="false">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">¿Por qué elegirnos?</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="section hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Dolcevia</h1>
+            <p class="hero-subtitle">Donde los momentos se endulzan con arte y frescura</p>
+            
+            <div class="hero-cards">
+                <div class="hero-card">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Pasteles para eventos</h3>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Café de especialidad</h3>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-cookie-bite"></i>
+                    <h3>Galletas artesanales</h3>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-ice-cream"></i>
+                    <h3>Postres finos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección ¿Por qué elegirnos? -->
+    <section id="nosotros" class="section nosotros">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <p class="section-subtitle">En Dolcevia transformamos ingredientes simples en experiencias dulces inolvidables. Nuestra pasión por la repostería se refleja en cada detalle.</p>
+            
+            <div class="pilares-container">
+                <div class="pilar-card">
+                    <div class="pilar-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ingredientes frescos</h3>
+                    <p>Utilizamos solo productos frescos y naturales en la elaboración de nuestros postres.</p>
+                </div>
+                
+                <div class="pilar-card">
+                    <div class="pilar-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Diversidad creativa</h3>
+                    <p>Sabores, colores y formas únicas que despiertan todos los sentidos.</p>
+                </div>
+                
+                <div class="pilar-card">
+                    <div class="pilar-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Café perfecto</h3>
+                    <p>Selección de granos premium para el acompañamiento ideal de tus postres.</p>
+                </div>
+                
+                <div class="pilar-card">
+                    <div class="pilar-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Ambiente acogedor</h3>
+                    <p>Un espacio diseñado para que disfrutes de momentos placenteros y memorables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Menú -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <p class="section-subtitle">Descubre nuestra selección de delicias artesanales</p>
+            
+            <div class="menu-category">
+                <h3 class="category-title">Pasteles y Tortas</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Tres Leches Clásico</h4>
+                            <span class="item-price">$18.000</span>
+                        </div>
+                        <p class="item-desc">Suave bizcocho empapado en crema de tres leches, coronado con merengue.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Red Velvet</h4>
+                            <span class="item-price">$22.000</span>
+                        </div>
+                        <p class="item-desc">Bizcocho de terciopelo rojo con frosting de queso crema y nueces.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Chocolate Belga</h4>
+                            <span class="item-price">$25.000</span>
+                        </div>
+                        <p class="item-desc">Intenso sabor a chocolate belga con relleno de ganache y frambuesas.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Postre de Natas</h4>
+                            <span class="item-price">$6.000 c/u</span>
+                        </div>
+                        <p class="item-desc">Intenso sabor a chocolate belga con relleno de ganache y frambuesas.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Merengón</h4>
+                            <span class="item-price">$10.000 c/u</span>
+                        </div>
+                        <p class="item-desc">Intenso sabor a chocolate belga con relleno de ganache y frambuesas.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-category">
+                <h3 class="category-title">Café de Especialidad</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Café Pour Over</h4>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <p class="item-desc">Extracción manual que resalta las notas frutales y florales del grano.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Cappuccino Artesanal</h4>
+                            <span class="item-price">$10.000</span>
+                        </div>
+                        <p class="item-desc">Balance perfecto entre espresso, leche vaporizada y espuma cremosa.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Cold Brew</h4>
+                            <span class="item-price">$12.000</span>
+                        </div>
+                        <p class="item-desc">Infusión en frío por 24 horas, suave y menos ácido.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-category">
+                <h3 class="category-title">Postres Finos</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Macarons Franceses</h4>
+                            <span class="item-price">$3.500 c/u</span>
+                        </div>
+                        <p class="item-desc">Delicadas galletas de almendra con relleno de ganache de sabores.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Éclairs de Vainilla</h4>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <p class="item-desc">Masa choux rellena de crema de vainilla y glaseado de chocolate.</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h4 class="item-name">Tiramisú Clásico</h4>
+                            <span class="item-price">$15.000</span>
+                        </div>
+                        <p class="item-desc">Capas de bizcocho de café, crema de mascarpone y cacao en polvo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <h2 class="section-title">Nuestras Creaciones</h2>
+            <p class="section-subtitle">Un vistazo a la magia que ocurre en nuestra pastelería</p>
+            
+            <!-- Carrusel -->
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <div class="slide-number">1 / 5</div>
+                        <div class="slide-content">Pasteles para bodas</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-number">2 / 5</div>
+                        <div class="slide-content">Café de especialidad</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-number">3 / 5</div>
+                        <div class="slide-content">Postres finos</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-number">4 / 5</div>
+                        <div class="slide-content">Galletas artesanales</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-number">5 / 5</div>
+                        <div class="slide-content">Ambiente acogedor</div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn prev" aria-label="Imagen anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" aria-label="Imagen siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                </div>
+            </div>
+            
+            <!-- Galería Grid -->
+            <div class="galeria-grid">
+                <div class="galeria-item" id="img1"></div>
+                <div class="galeria-item" id="img2"></div>
+                <div class="galeria-item" id="img3"></div>
+                <div class="galeria-item" id="img4"></div>
+                <div class="galeria-item" id="img5"></div>
+                <div class="galeria-item" id="img6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer y Contacto -->
+    <footer id="contacto" class="section footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Contáctanos</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tu mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Visítanos</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Calle 123 #45-67, Ciudad Prado</p>
+                        <p><i class="fas fa-phone"></i> +57 300 382 1475</p>
+                        <p><i class="fas fa-envelope"></i> resposteria@dolcevia.com</p>
+                    </div>
+                    
+                    <div class="horarios">
+                        <h4>Horarios</h4>
+                        <p>Lunes a Viernes: 8:00 AM - 8:00 PM</p>
+                        <p>Sábados: 9:00 AM - 9:00 PM</p>
+                        <p>Domingos: 10:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Dolcevia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./index.js"></script>
+</body>
+</html>
