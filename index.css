@@ -218,7 +218,7 @@ h1, h2, h3, h4 {
     max-width: 600px;
     margin: 0 auto;
 }
-.hero-cards a{
+.hero-cards a {
     text-decoration: none;
     color: var(--gray);
 }
@@ -791,3 +791,4 @@ h1, h2, h3, h4 {
     }
 
 }
+
