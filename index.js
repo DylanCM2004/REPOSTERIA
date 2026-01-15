@@ -119,7 +119,7 @@ if (contactForm) {
         const encodedMessage = encodeURIComponent(whatsappMessage);
         
         // Número de WhatsApp (reemplazar con el número real)
-        const phoneNumber = '57300XXXXXXX';
+        const phoneNumber = '573013832317';
         
         // Abrir WhatsApp con el mensaje
         window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
@@ -190,3 +190,4 @@ window.addEventListener('load', () => {
 // Actualizar navegación activa en resize
 
 window.addEventListener('resize', updateActiveNavLink);
+
